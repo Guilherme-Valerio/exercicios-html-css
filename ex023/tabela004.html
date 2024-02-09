@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +20,22 @@
             padding: 10px;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid gray;
             padding: 10px;
         }
+
         col.cgrupos {
             background-color: skyblue;
+        }
+
+        col.cnomes {
+            background-color: rgb(135, 235, 135);
+        }
+
+        col.cfilmes {
+            background-color: lightpink;
         }
     </style>
 </head>
@@ -33,8 +44,8 @@
     <table>
         <colgroup>
             <col class="cgrupos">
-            <col class="cnome">
-            <col class="cfilmes">
+            <col class="cnomes">
+            <col class="cfilmes" span="3">
         </colgroup>
         <caption>
             Filmes Favoritos
@@ -94,4 +105,5 @@
         </tfoot>
     </table>
 </body>
+
 </html>
